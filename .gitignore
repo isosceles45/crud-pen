@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+.env # For environment variables
+
+# Build artifacts
+dist/
+build/
+
+# IDE and OS specific files
+.DS_Store # macOS
+.idea/
+*.log # Log files
+*.bak # Backup files
