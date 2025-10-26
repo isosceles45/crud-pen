@@ -1,14 +1,14 @@
-# Node.js dependencies
+# Node.js
 node_modules/
-npm-debug.log
-.env # For environment variables
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
 
-# Build artifacts
-dist/
-build/
-
-# IDE and OS specific files
-.DS_Store # macOS
+# WebStorm / IntelliJ IDEA
 .idea/
-*.log # Log files
-*.bak # Backup files
+*.iml
+*.iws
+*.ipr
+workspace.xml
+tasks.xml
