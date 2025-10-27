@@ -71,7 +71,7 @@ export const deleteUser = async (req, res, next) => {
         if(!dltUser){
             handleResponse(res, 404, "User not found");
         }
-        handleResponse(res, 200,"User found!", dltUser);
+        handleResponse(res, 200,"User found and deleted!", dltUser);
     } catch (error) {
         next(error);
     }
